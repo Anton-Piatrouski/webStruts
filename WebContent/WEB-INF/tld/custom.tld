@@ -7,17 +7,29 @@
     <name>reservationInfo</name>
     <tag-class>by.epam.tag.custom.ReservationTag</tag-class>
     <body-content>empty</body-content>
+    <attribute>
+      <name>var</name>
+      <required>true</required>
+    </attribute>
   </tag>
   
   <tag>
     <name>customerInfo</name>
     <tag-class>by.epam.tag.custom.CustomerTag</tag-class>
     <body-content>empty</body-content>
+    <attribute>
+      <name>var</name>
+      <required>true</required>
+    </attribute>
   </tag>
   
   <tag>
     <name>fareFamilyInfo</name>
     <tag-class>by.epam.tag.custom.FareFamilyTag</tag-class>
     <body-content>empty</body-content>
+    <attribute>
+      <name>var</name>
+      <required>true</required>
+    </attribute>
   </tag>
 </taglib>
