@@ -38,6 +38,8 @@
     <action path="/FareFamilyPage" parameter="/pages/fareFamily/fare-family.jsp" type="org.apache.struts.actions.ForwardAction"/>
   </action-mappings>
   
+  <controller nocache="true" processorClass="org.apache.struts.action.RequestProcessor"></controller>
+  
   <message-resources parameter="Application"/>
   
   <plug-in className="org.apache.struts.tiles.TilesPlugin">
