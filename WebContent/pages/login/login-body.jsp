@@ -3,7 +3,7 @@
 
 <div class="content">
 	<div class="page-header">
-		<h1>LoginPage</h1>
+		<h1><b:message key="login.jsp.content.header"/></h1>
 	</div>
 	<h:form action="/Login.do" focus="userName">
 		<label for=""><b:message key="login.jsp.prompt.user"/></label>

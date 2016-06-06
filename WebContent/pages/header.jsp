@@ -18,10 +18,10 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li><a href="LoginPage.do">LoginPage</a></li>
-				<li><a href="ReservationPage.do">ReservationPage</a></li>
-				<li><a href="CustomerPage.do">CustomerPage</a></li>
-				<li><a href="FareFamilyPage.do">FareFamilyPage</a></li>
+				<li><a href="LoginPage.do"><b:message key="menu.item.page.login"/></a></li>
+				<li><a href="ReservationPage.do"><b:message key="menu.item.page.reservation"/></a></li>
+				<li><a href="CustomerPage.do"><b:message key="menu.item.page.customer"/></a></li>
+				<li><a href="FareFamilyPage.do"><b:message key="menu.item.page.fareFamily"/></a></li>
 			</ul>
 
 			<c:if test="${not empty user}">
