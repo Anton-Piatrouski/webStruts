@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import by.epam.model.beans.User;
+
 public class LoginFilter implements Filter {
 	@Override
 	public void init(FilterConfig config) throws ServletException {
@@ -23,7 +25,7 @@ public class LoginFilter implements Filter {
 			throws IOException, ServletException {
 		HttpServletRequest httpRequest = (HttpServletRequest) request;
 		HttpSession session = httpRequest.getSession();
-		String user = (String) session.getAttribute("user");
+		User user = (User) session.getAttribute("user");
 		
 		if (user == null) {
 			session.invalidate();
