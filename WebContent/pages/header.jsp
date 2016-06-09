@@ -25,6 +25,9 @@
 			</ul>
 
 			<c:if test="${not empty user}">
+				<p class="navbar-text">
+					<span class="label label-info"><c:out value="${user.name}"/></span>
+				</p>
 				<h:form styleClass="navbar-form navbar-left" action="/Logout.do">
 					<h:submit styleClass="btn btn-default"><b:message key="menu.item.logout"/></h:submit>
 				</h:form>
